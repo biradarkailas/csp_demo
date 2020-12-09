@@ -18,6 +18,7 @@ public class RsyncService {
         try {
             rsync.execute();
             System.out.println("Rsync comleted");
+            System.out.println("Jenkins Test comleted");
         } catch (Exception e) {
             e.printStackTrace();
         }
