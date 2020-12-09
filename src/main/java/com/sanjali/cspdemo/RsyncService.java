@@ -17,7 +17,7 @@ public class RsyncService {
                 .recursive(true);
         try {
             rsync.execute();
-            System.out.println("Rsync comleted");
+            //System.out.println("Rsync comleted");
         } catch (Exception e) {
             e.printStackTrace();
         }
